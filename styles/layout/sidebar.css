@@ -1,0 +1,35 @@
+.sidebar {
+		display: none;
+		position: fixed;
+
+		top: 240px;
+
+		padding: 1em;
+		text-align: center;
+
+		border-radius: var(--corner-rounding);
+		
+		background-color: #39087c;
+
+		transition: top .5s ease-in-out;
+}
+
+.sidebar-heading {
+		color: #663a85;
+
+		font-weight: bold;
+}
+
+.sidebar-text {
+		color: #aa7fc9;
+
+		padding: 20px;
+
+		transition: color .5s ease;
+}
+
+/* Hover states */
+
+.sidebar-text:hover {
+		color: #cdade5;
+}

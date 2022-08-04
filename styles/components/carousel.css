@@ -1,0 +1,36 @@
+.carousel-container {
+
+}
+
+.carousel-item {
+		display: none;
+}
+
+.carousel-dots {
+		text-align: center;
+}
+
+.dot {
+		display: inline-block;
+		cursor: pointer;
+
+		margin: 0 2px;
+		height: 15px;
+		width: 15px;
+
+		border-radius: 50%;
+
+		background-color: #260b70;
+
+		transition: transform 1s ease;
+}
+
+.dot:hover {
+		background-color: #aa7fc9;
+}
+
+.active-dot {
+		background-color: white;
+
+		transform: scale(1.3);
+}

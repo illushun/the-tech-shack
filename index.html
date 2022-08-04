@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>TheTechShack | Home</title>
+        <link href="./styles/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="site-content">
+            <div class="navigation hide-mobile">
+                <div class="nav-item">
+                    <a class="nav-link" href="./index.html">
+                        <img src="./assets/Logo.png" alt="TechShack Logo" />
+                    </a>
+                </div>
+
+                <div class="nav-item">
+                    <a class="active" href="./">Home</a>
+                </div>
+
+                <div class="nav-item dropdown">
+                    <a class="nav-link" href="#">Brand</a>
+
+										<div class="dropdown-content">
+												<a class="dropdown-item" href="./pages/nvidia.html">NVIDIA</a>
+												<a class="dropdown-item" href="./pages/intel.html">Intel</a>
+												<a class="dropdown-item" href="./pages/amd.html">AMD</a>
+										</div>
+                </div>
+
+                <div class="nav-item">
+                    <a class="nav-link" href="./pages/new-releases.html">New Releases</a>
+                </div>
+
+                <div class="nav-item">
+                    <a class="nav-link" href="./pages/about-us.html">About Us</a>
+                </div>
+            </div>
+
+            <div class="navigation hide-desktop" id="mobile-nav">
+                <div class="nav-item-mobile dropdown" onclick="setDropdown()">
+                    <div class="hamburger-icon">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+
+                <div class="nav-item-mobile">
+                    <a class="nav-link" href="./">
+                        <img src="./assets/Logo.png" alt="TechShack Logo" />
+                    </a>
+                </div>
+            </div>
+
+						<div class="dropdown-content-mobile dropdown" id="drop-content">
+								<a class="dropdown-item active-item" href="./index.html">Home</a>
+								<a class="dropdown-item" href="./pages/nvidia.html">NVIDIA</a>
+								<a class="dropdown-item" href="./pages/intel.html">Intel</a>
+								<a class="dropdown-item" href="./pages/amd.html">AMD</a>
+								<a class="dropdown-item" href="./pages/new-releases.html">New Releases</a>
+								<a class="dropdown-item" href="./pages/about-us.html">About Us</a>
+						</div>
+
+						<div class="top-btn" id="top" onclick="scrollToTop()" onmouseout="">
+								<p>&#8593;</p>
+						</div>
+
+            <div class="top-content">
+                <div class="card-container">
+                    <div class="card-item center">
+                        <a class="card-link" href="./pages/nvidia.html">
+                            <img class="card-img" src="./assets/images/nvidia-logo.png" alt="NVIDIA Logo" />
+
+                            <p class="card-title">NVIDIA</p>
+
+                            <div class="card-button">
+                                <p>Products</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card-item center">
+                        <a class="card-link" href="./pages/intel.html">
+                            <img class="card-img" src="./assets/images/intel-logo.png" alt="Intel Logo" />
+
+                            <p class="card-title">Intel</p>
+
+                            <div class="card-button">
+                                <p>Products</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card-item center">
+                        <a class="card-link" href="./pages/amd.html">
+                            <img class="card-img" src="./assets/images/amd-logo.png" alt="AMD Logo" />
+
+                            <p class="card-title">AMD</p>
+
+                            <div class="card-button">
+                                <p>Products</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mid-content center mb-60">
+								<div class="carousel-container mb-20">
+										<div class="carousel-item">
+												<p>
+													"I can always find something at The Tech Shack that I fall in love with instantly - Saad M"
+												</p>
+										</div>
+
+										<div class="carousel-item">
+												<p>"The detail and quality are well-done. - Britney S"</p>
+										</div>
+
+										<div class="carousel-item">
+												<p>"The hardware reviews were a hit! - Stewart H"</p>
+										</div>
+
+										<div class="carousel-item">
+												<p>"It's the best thing since sliced bread! Cheap as chips! - Harry S"</p>
+										</div>
+								</div>
+
+								<div class="carousel-dots">
+										<span class="dot" onclick="getItem(1)"></span>
+										<span class="dot" onclick="getItem(2)"></span>
+										<span class="dot" onclick="getItem(3)"></span>
+										<span class="dot" onclick="getItem(4)"></span>
+								</div>
+            </div>
+
+            <div class="bottom-content mb-60">
+                <div class="review-container">
+                    <div class="review">
+                        <a class="review-link" href="./pages/reviews/nvidia-3090-review.html">
+														<img class="review-img" src="./assets/images/rtx3090.png" alt="img 1" />
+														
+														<div class="right">
+																<div class="review-content">
+																		<p class="review-title">GEFORCE RTX 3090</p>
+
+																		<div class="review-button">
+																				<p>Read More</p>
+																		</div>
+																</div>
+														</div>
+                        </a>
+                    </div>
+
+                    <div class="review">
+                        <a class="review-link" href="./pages/reviews/intel-12900K-review.html">
+														<img class="review-img" src="./assets/images/i9-12900K.png" alt="img 2" />
+
+														<div class="right">
+																<div class="review-content">
+																		<p class="review-title">Intel i9-12900K</p>
+
+																		<div class="review-button">
+																				<p>Read More</p>
+																		</div>
+																</div>
+														</div>
+                        </a>
+                    </div>
+
+                    <div class="review">
+                        <a class="review-link" href="./pages/reviews/amd-5950X-review.html">
+														<img class="review-img" src="./assets/images/ryzen-9-5950X.png" alt="img 3" />
+
+														<div class="right">
+																<div class="review-content">
+																		<p class="review-title">AMD Ryzen 9 5950X</p>
+
+																		<div class="review-button">
+																				<p>Read More</p>
+																		</div>
+																</div>
+														</div>
+                        </a>
+                    </div>
+
+                    <div class="review">
+                        <a class="review-link" href="./pages/reviews/amd-5900X-review.html">
+														<img class="review-img" src="./assets/images/ryzen-9-5900X.png" alt="img 4" />
+
+														<div class="right">
+																<div class="review-content">
+																		<p class="review-title">AMD Ryzen 9 5900X</p>
+
+																		<div class="review-button">
+																				<p>Read More</p>
+																		</div>
+																</div>
+														</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer center">
+            <p>
+							The Tech Shack is dedicated to brining the tech community with the most insightful hardware reviews and hopes to spread awareness towards new buyers.
+						</p><br>
+
+						<a href="youtube.com">YouTube</a><br>
+						<a href="twitter.com">Twitter</a>
+        </div>
+
+				<script src="./scripts/script.js"></script>
+    </body>
+</html>

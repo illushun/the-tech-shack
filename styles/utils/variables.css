@@ -1,0 +1,87 @@
+:root {
+    /* Primary colours */
+    --primary-clr: #410D83;
+  
+    --primary-900-clr: #2F0045;
+    --primary-800-clr: #3D0163;
+    --primary-700-clr: #520482;
+    --primary-600-clr: #6F16B8;
+    --primary-500-clr: #7F2DCC;
+    --primary-400-clr: #9F5FE3;
+    --primary-300-clr: #B98EED;
+    --primary-200-clr: #DDC6F7;
+    --primary-100-clr: #F6F0FC;
+  
+    /* Accent colours */
+    --accent-clr: #E43D59;
+  
+    --accent-600-clr: #451223;
+    --accent-500-clr: #661C35;
+    --accent-400-clr: #912A4C;
+    --accent-300-clr: #D66D90;
+    --accent-200-clr: #EEA8BF;
+    --accent-100-clr: #FCF0F4;
+  
+    /* Gray colours */
+    --gray-clr: #626262;
+  
+    --gray-900-clr: #222222;
+    --gray-800-clr: #38383B;
+    --gray-700-clr: #515151;
+    --gray-600-clr: #7E7E7E;
+    --gray-500-clr: #9E9E9E;
+    --gray-400-clr: #B1B1B1;
+    --gray-300-clr: #CFCFCF;
+    --gray-200-clr: #E1E1E1;
+    --gray-100-clr: #F7F7F7;
+  
+    /* Error colours */
+    --error-clr: #E12D39;
+  
+    --error-900-clr: #610316;
+    --error-800-clr: #8A041A;
+    --error-700-clr: #AB091E;
+    --error-600-clr: #CF1124;
+    --error-500-clr: #EF4E4E;
+    --error-400-clr: #F86A6A;
+    --error-300-clr: #FF9B9B;
+    --error-200-clr: #FFBDBD;
+    --error-100-clr: #FFE3E3;
+  
+    /* Warning colours */
+    --warning-clr: #F4CA64;
+  
+    --warning-600-clr: #5C4813;
+    --warning-500-clr: #8C6D1F;
+    --warning-400-clr: #CAA53D;
+    --warning-300-clr: #FAE29F;
+    --warning-200-clr: #FDF3D7;
+    --warning-100-clr: #FFFCF4;
+  
+    /* Positive colours */
+    --positive-clr: #38C172;
+  
+    --positive-600-clr: #155239;
+    --positive-500-clr: #197741;
+    --positive-400-clr: #259D58;
+    --positive-300-clr: #74D99F;
+    --positive-200-clr: #A8EEC1;
+    --positive-100-clr: #E3FCEC;
+  
+    /* Other colours */
+    --primary-font-clr: #3D4756;
+    --secondary-font-clr: #555F6E;
+  
+    /* fonts */
+    --fs-xl: 6rem;
+    --fs-medium: 2.1rem;
+    --fs-small: 1.3rem;
+  
+    --font-primary: 'Helvetica Neue', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+  
+    /* extra */
+    --corner-rounding: 5px;
+    --header-margin: 30px;
+    --paragraph-margin: 5px;
+  }
